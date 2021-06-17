@@ -9319,7 +9319,10 @@ p {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.51);
   }
-
+  .dashboard {
+    width: 300px !important;
+    height: 186.5px !important;
+  }
   .text-block-5 {
     margin-right: 2%;
     margin-bottom: 0px;
@@ -9990,6 +9993,12 @@ p {
 }
 
 .w-webflow-badge {
-  position: fixed !important;    
-  display: None !important;    
-  visibility: hidden !important;}  
+  position: fixed !important;
+  display: None !important;
+  visibility: hidden !important;
+}
+
+.dashboard {
+  width: 500px;
+  height: 312.5px;
+}
