@@ -8289,6 +8289,10 @@ p {
     background-position: 0px 0px;
     background-size: cover;
   }
+  .dashboard{
+    width: 600px;
+    height: 373.5px;
+  }
 
   .columns-3 {
     width: auto;
@@ -9018,7 +9022,10 @@ p {
   .mainfooter.main {
     margin-top: 72px;
   }
-
+  .dashboard{
+    width: 500px;
+    height: 312.3px;
+  }
   .navmenu {
     bottom: auto;
     padding-right: 12px;
@@ -9446,7 +9453,10 @@ p {
   .mainfooter.main {
     background-size: contain;
   }
-
+  .dashboard{
+    width: 300px;
+    height: 184.3px;
+  }
   .slider {
     display: block;
   }
