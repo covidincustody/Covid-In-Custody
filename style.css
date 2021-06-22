@@ -8290,8 +8290,8 @@ p {
     background-size: cover;
   }
   .dashboard{
-    width: 600px;
-    height: 373.5px;
+    width: 600px !important;
+    height: 373.5px !important;
   }
 
   .columns-3 {
@@ -9023,8 +9023,8 @@ p {
     margin-top: 72px;
   }
   .dashboard{
-    width: 500px;
-    height: 312.3px;
+    width: 500px !important;
+    height: 312.3px !important;
   }
   .navmenu {
     bottom: auto;
@@ -9454,8 +9454,8 @@ p {
     background-size: contain;
   }
   .dashboard{
-    width: 300px;
-    height: 184.3px;
+    width: 300px !important;
+    height: 184.3px !important;
   }
   .slider {
     display: block;
