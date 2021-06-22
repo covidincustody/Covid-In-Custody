@@ -1,4 +1,4 @@
-/* Generated on: Sat Jun 19 2021 07:23:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Jun 22 2021 08:51:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4915,7 +4915,7 @@ p {
   width: auto;
   height: auto;
   min-width: auto;
-  margin-top: 17vh;
+  margin-top: 10px;
   margin-left: 0%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -7335,7 +7335,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: hsla(0, 0%, 97.3%, 0);
+  background-color: #f8f8f8;
 }
 
 .datacontainer {
@@ -8147,7 +8147,7 @@ p {
   align-items: center;
   border-style: none none solid;
   border-width: 1px;
-  border-color: #000;
+  border-color: #000 #000 rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
@@ -8160,6 +8160,10 @@ p {
   width: 57px;
   height: 57px;
   margin-right: 10px;
+}
+
+.div-block-90 {
+  margin-top: 17vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -8405,10 +8409,11 @@ p {
     grid-auto-columns: 0.25fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
+    grid-template-areas: "Area Area";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    -ms-grid-rows: auto 16px auto;
+    grid-template-rows: auto auto;
   }
 
   .topstoriestitle {
@@ -8489,15 +8494,19 @@ p {
   }
 
   .topstoriesarticletitle {
-    text-align: center;
+    text-align: left;
   }
 
   .article {
-    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8512,10 +8521,14 @@ p {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .topstoriesimagecontainer {
@@ -8768,9 +8781,11 @@ p {
   }
 
   .topstoriesdescription {
+    max-height: 51px;
+    min-height: 34px;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
+    text-align: left;
   }
 
   .topstoriesimageframe {
@@ -8812,6 +8827,7 @@ p {
   }
 
   .topstoriesauthorcontainer {
+    width: 100%;
     text-align: center;
   }
 
@@ -8827,11 +8843,11 @@ p {
   }
 
   .topstoriescontainer {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8972,6 +8988,10 @@ p {
   .menu.w--open {
     background-color: #fff;
     color: #000;
+  }
+
+  .div-block-90 {
+    margin-top: 5vh;
   }
 }
 
@@ -9189,11 +9209,11 @@ p {
   }
 
   .article {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 
   .topstoriesimagecontainer {
@@ -9326,6 +9346,11 @@ p {
   .paragraph-12 {
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .topstoriesdescription {
+    max-height: 51px;
+    min-height: 34px;
   }
 
   .topstoriesimageframe {
@@ -9561,6 +9586,10 @@ p {
     width: 100%;
     margin-top: 5vh;
     margin-right: 0%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .div-block-41 {
@@ -9627,6 +9656,11 @@ p {
   .article {
     padding-right: 0px;
     padding-left: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .topstoriesarticlecontainer {
@@ -10015,6 +10049,7 @@ p {
   }
 
   .topstoriescontainer {
+    display: block;
     padding-right: 0px;
     padding-left: 0%;
   }
@@ -10151,6 +10186,10 @@ p {
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .div-block-90 {
+    display: none;
+  }
 }
 
 #w-node-_5bbaf61d-1106-75db-5476-ee51a2d293e4-6b24c16b {
@@ -10162,20 +10201,30 @@ p {
   justify-self: start;
 }
 
-#w-node-_92257509-4b8e-c33d-c8a7-2d5ed0c77215-6b24c16b {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
+@media screen and (max-width: 991px) {
+  #w-node-_557b452f-44aa-c9a6-c822-ebbf8392c148-6b24c16b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_8849bdca-6d15-95e5-34bf-2b3b0e0da1e7-6b24c16b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
 }
+
 
 .w-webflow-badge {
   position: fixed !important;    

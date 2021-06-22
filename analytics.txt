@@ -1,4 +1,4 @@
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-------------- Global site tag (gtag.js) - Google Analytics -------------->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3738MC1T77"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -7,3 +7,60 @@
 
     gtag('config', 'G-3738MC1T77');
   </script>
+
+
+
+<!-------------- Nav bar links: Home -------------->
+https://covidincustody.org/
+
+https://covidincustody.org/reporting
+
+https://covidincustody.org/data
+
+<!-------------- Home: Our Data html -------------->
+  <div class="ourdata">
+    <div data-w-id="53adde9b-db54-b133-19af-43d02196237e" style="opacity:0" class="headlinediv cc-separate-subheadline">
+      <div class="decolineleft"></div>
+      <h1 class="coltitle">Our Data</h1>
+      <div class="decolineright"></div>
+    </div>
+    <div class="datacontainer">
+      <div class="bileft">
+        <div class="text-block-15"><iframe class="dashboard" width="500" height="312.5"
+            src="https://app.powerbi.com/view?r=eyJrIjoiODJlMjNhZTYtMjdiZS00YjkyLTkwNTQtYjllYTExMzhhYTg0IiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9"
+            frameborder="0" allowFullScreen="true"></iframe></div>
+      </div>
+      <div class="biright">
+        <div class="text-block-16"><iframe class="dashboard" width="500" height="312.5"
+            src="https://app.powerbi.com/view?r=eyJrIjoiYjQ5YjE3MGQtNDExYy00ZDIxLThkZTktZDRjMjA3NzZhMTQzIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9"
+            frameborder="0" allowFullScreen="true"></iframe></div>
+      </div>
+    </div>
+  </div>
+
+<!-------------- Home: Our Data Styles -------------->
+  .dashboard{
+    width: 600px;
+    height: 373.3px;
+  }
+
+
+<!-------------- Home: Footer section -------------->
+https://covidincustody.org/
+
+<!-------------- Nav bar links: Reporting and Data -------------->
+https://covidincustody.org/
+
+
+<!-------------- Data: Dashboards -------------->
+
+
+<!-------------- Data: CDCR -------------->
+<iframe class="dashboard" width="800" height="498"
+                  src="https://app.powerbi.com/view?r=eyJrIjoiYTZiM2FjMzYtODc2Yi00ZTgzLTk4OWItMWUxZmE0NzBmOGZhIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSectionb0313cf8e60972008261"
+                  frameborder="0" allowFullScreen="true"></iframe>
+<!-------------- Data: Counties -------------->
+<iframe class="dashboard" width="800" height="498"
+                  src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
+                  frameborder="0" allowFullScreen="true"></iframe>
+
