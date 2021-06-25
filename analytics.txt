@@ -50,6 +50,7 @@
 
 
 <!-------------- CSS -------------->
+
    .cdcr__dashboard {
     width: 450px !important;
     height: 280px !important;
@@ -207,5 +208,6 @@
       height: 435px !important;
     }
   }
+  
   
   
