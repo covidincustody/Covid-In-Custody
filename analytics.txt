@@ -10,57 +10,163 @@
 
 
 
-<!-------------- Nav bar links: Home -------------->
-https://covidincustody.org/
-
-https://covidincustody.org/reporting
-
-https://covidincustody.org/data
 
 <!-------------- Home: Our Data html -------------->
+
   <div class="ourdata">
-    <div data-w-id="53adde9b-db54-b133-19af-43d02196237e" style="opacity:0" class="headlinediv cc-separate-subheadline">
+    <div data-w-id="53adde9b-db54-b133-19af-43d02196237e" style="opacity:0"
+      class="section__title__container cc-separate-subheadline">
       <div class="decolineleft"></div>
-      <h1 class="coltitle">Our Data</h1>
+      <h1 class="section__title">Our Data</h1>
       <div class="decolineright"></div>
     </div>
-    <div class="datacontainer">
-      <div class="bileft">
-        <div class="text-block-15"><iframe class="dashboard" width="500" height="312.5"
+    <div class="ourdata__container">
+      <div class="data__left"><iframe class="cdcr__dashboard" 
             src="https://app.powerbi.com/view?r=eyJrIjoiODJlMjNhZTYtMjdiZS00YjkyLTkwNTQtYjllYTExMzhhYTg0IiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9"
             frameborder="0" allowFullScreen="true"></iframe></div>
-      </div>
-      <div class="biright">
-        <div class="text-block-16"><iframe class="dashboard" width="500" height="312.5"
+      <div class="data__right"><iframe class="counties__dashboard" 
             src="https://app.powerbi.com/view?r=eyJrIjoiYjQ5YjE3MGQtNDExYy00ZDIxLThkZTktZDRjMjA3NzZhMTQzIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9"
-            frameborder="0" allowFullScreen="true"></iframe></div>
-      </div>
+            frameborder="0" allowFullScreen="true"></iframe></div></div>
     </div>
   </div>
 
 <!-------------- Home: Our Data Styles -------------->
-  .dashboard{
-    width: 600px;
-    height: 373.3px;
-  }
 
 
-<!-------------- Home: Footer section -------------->
-https://covidincustody.org/
-
-<!-------------- Nav bar links: Reporting and Data -------------->
-https://covidincustody.org/
 
 
 <!-------------- Data: Dashboards -------------->
 
 
 <!-------------- Data: CDCR -------------->
-<iframe class="dashboard" width="800" height="498"
+<iframe class="data__dashboard" width="800" height="498"
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTZiM2FjMzYtODc2Yi00ZTgzLTk4OWItMWUxZmE0NzBmOGZhIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSectionb0313cf8e60972008261"
                   frameborder="0" allowFullScreen="true"></iframe>
 <!-------------- Data: Counties -------------->
-<iframe class="dashboard" width="800" height="498"
+<iframe class="data__dashboard" width="800" height="498"
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
                   frameborder="0" allowFullScreen="true"></iframe>
+
+
+
+<!-------------- CSS -------------->
+
+.cdcr__dashboard{
+  width: 450px;
+  height: 280px;
+}
+.counties__dashboard{
+  width: 450px;
+  height: 280px;
+}
+.data__dashboard{
+  width: 991px !important;
+  height: 617px !important;
+  padding: 0 5%;
+}
+.w-webflow-badge {
+position: fixed !important;    
+display: None !important;    
+visibility: hidden !important;}  
+
+@media screen and (max-width: 991px) {
+.cdcr__dashboard{
+  width: 450px;
+  height: 280px;
+}
+.counties__dashboard{
+  width: 450px;
+  height: 280px;
+}
+.data__dashboard{
+  width: 750px !important;
+  height: 467px !important;
+}
+}
+@media screen and (max-width: 767px) {
+  .cdcr__dashboard{
+    width: 350px;
+    height: 218px;
+  }
+  .counties__dashboard{
+    width: 350px;
+    height: 218px;
+  }
+  .data__dashboard{
+    width: 700px !important;
+    height: 454px !important;
+    padding: 0 5%;
+  }
+  .da
+}
+@media screen and (max-width: 479px) {
+  .cdcr__dashboard{
+    width: 200px !important;
+    height: 124.5px !important;
+  }
+  .counties__dashboard{
+    width: 200px;
+    height: 124.5px;
+  }
+  .data__dashboard{
+    width: 350px !important;
+    height: 218px !important;
+  }
+}
+@media screen and (min-width: 1138px) {
+  .cdcr__dashboard{
+    width: 200px !important;
+    height: 124.5px !important;
+  }
+  .counties__dashboard{
+    width: 200px;
+    height: 124.5px;
+  }
+  .data__dashboard{
+    width: 1138px !important;
+    height: 708.4px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cdcr__dashboard{
+    width: 200px !important;
+    height: 124.5px !important;
+  }
+  .counties__dashboard{
+    width: 200px;
+    height: 124.5px;
+  }
+  .data__dashboard{
+    width: 1138px !important;
+    height: 708.4px !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cdcr__dashboard{
+    width: 200px !important;
+    height: 124.5px !important;
+  }
+  .counties__dashboard{
+    width: 200px;
+    height: 124.5px;
+  }
+  .data__dashboard{
+    width: 1138px !important;
+    height: 708.4px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cdcr__dashboard{
+    width: 200px !important;
+    height: 124.5px !important;
+  }
+  .counties__dashboard{
+    width: 200px;
+    height: 124.5px;
+  }
+  .data__dashboard{
+    width: 1138px !important;
+    height: 708.4px !important;
+  }
+}
 
