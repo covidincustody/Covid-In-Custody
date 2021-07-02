@@ -1,4 +1,4 @@
-/* Generated on: Fri Jun 25 2021 19:08:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Jul 02 2021 03:42:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9148,6 +9148,7 @@ p {
   }
 
   .div-block-73 {
+    margin-left: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -10020,7 +10021,8 @@ p {
 
   .team__member__description__mobile {
     display: block;
-    margin-left: 40px;
+    margin-left: 0px;
+    padding-left: 20px;
     line-height: 18px;
     text-align: left;
   }
@@ -10226,6 +10228,7 @@ p {
   }
 
   .article {
+    max-width: none;
     padding-right: 5%;
     padding-left: 5%;
     -webkit-box-orient: vertical;
@@ -10236,8 +10239,7 @@ p {
   }
 
   .article__text__container {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -10508,8 +10510,8 @@ p {
   }
 
   .article__description {
-    max-height: 51px;
-    min-height: 34px;
+    max-height: 54px;
+    min-height: 36px;
     margin-bottom: 10px;
     line-height: 18px;
     text-align: center;
@@ -10583,7 +10585,7 @@ p {
     margin-right: 5px;
     padding-right: 0px;
     line-height: 16px;
-    text-align: left;
+    text-align: center;
   }
 
   .article__text__frame {
@@ -10642,8 +10644,8 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-right: 0px;
-    padding-left: 0%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .menucontainer {
@@ -10689,8 +10691,8 @@ p {
 
   .data__description {
     overflow: visible;
-    width: 350px;
-    max-width: 350px;
+    width: auto;
+    max-width: none;
     padding-right: 5%;
     padding-left: 5%;
     font-size: 18px;
@@ -10777,6 +10779,15 @@ p {
     align-items: center;
   }
 
+  .div-block-79 {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .div-block-80 {
+    max-width: none;
+  }
+
   .div-block-83 {
     display: block;
   }
@@ -10839,7 +10850,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 0px;
+    margin-right: 10px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -10851,6 +10862,18 @@ p {
   }
 
   .team__member__description__full {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: left;
   }
 
@@ -10873,6 +10896,15 @@ p {
 
   .footer__page__links {
     width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .footer__links__container {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .sub__footer__copyright__container {
@@ -11038,6 +11070,11 @@ p {
   .data__dashboard {
     width: 350px !important;
     height: 218px !important;
+  }
+  .div-block-89 {
+    
+    margin-right: 10px;
+
   }
 }
 @media screen and (min-width: 991px) {
