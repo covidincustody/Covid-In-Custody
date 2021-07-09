@@ -49,9 +49,55 @@
 
 
 
-<!-------------- CSS -------------->
+/* Custom CSS styles */
+.cdcr__dashboard {
+  width: 450px !important;
+  height: 280px !important;
+}
+.counties__dashboard {
+  width: 450px !important;
+  height: 280px !important;
+}
+.data__dashboard {
+  width: 991px !important;
+  height: 617px !important;
+}
+.w-webflow-badge {
+  position: fixed !important;
+  display: None !important;
+  visibility: hidden !important;
+}
+@media screen and (max-width: 1035px) {
+  .cdcr__dashboard {
+    width: 600px;
+    height: 373.5px;
+  }
+  .counties__dashboard {
+    width: 600px;
+    height: 373.5px;
+  }
+  .data__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+}
 
-   .cdcr__dashboard {
+@media screen and (max-width: 991px) {
+  .cdcr__dashboard {
+    width: 600px;
+    height: 373.5px;
+  }
+  .counties__dashboard {
+    width: 600px;
+    height: 373.5px;
+  }
+  .data__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cdcr__dashboard {
     width: 450px !important;
     height: 280px !important;
   }
@@ -60,154 +106,117 @@
     height: 280px !important;
   }
   .data__dashboard {
-    width: 991px !important;
-    height: 617px !important;
+    width: 450px !important;
+    height: 280px !important;
   }
-  .w-webflow-badge {
-    position: fixed !important;
-    display: None !important;
-    visibility: hidden !important;
+}
+@media screen and (max-width: 479px) {
+  .cdcr__dashboard {
+    width: 350px !important;
+    height: 218px !important;
   }
-  @media screen and (max-width: 1035px) {
-    .cdcr__dashboard {
-      width: 600px;
-      height: 373.5px;
-    }
-    .counties__dashboard {
-      width: 600px;
-      height: 373.5px;
-    }
-    .data__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
+  .counties__dashboard {
+    width: 350px !important;
+    height: 218px !important;
   }
+  .data__dashboard {
+    width: 350px !important;
+    height: 218px !important;
+  }
+}
+@media screen and (min-width: 991px) {
+  .cdcr__dashboard {
+    width: 450px !important;
+    height: 280px !important;
+  }
+  .counties__dashboard {
+    width: 450px !important;
+    height: 280px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .data__description {
+    width: 700px !important;
+  }
+  .data__article {
+    width: 700px !important;
+  }
+}
+@media screen and (min-width: 1138px) {
+  .cdcr__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+  .counties__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .data__description {
+    width: 700px !important;
+  }
+  .data__article {
+    width: 700px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cdcr__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+  .counties__dashboard {
+    width: 500px !important;
+    height: 312.5px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cdcr__dashboard {
+    width: 600px !important;
+    height: 373.5px !important;
+  }
+  .counties__dashboard {
+    width: 600px !important;
+    height: 373.5px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cdcr__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .counties__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+}
+
   
-  @media screen and (max-width: 991px) {
-    .cdcr__dashboard {
-      width: 600px;
-      height: 373.5px;
-    }
-    .counties__dashboard {
-      width: 600px;
-      height: 373.5px;
-    }
-    .data__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .cdcr__dashboard {
-      width: 450px !important;
-      height: 280px !important;
-    }
-    .counties__dashboard {
-      width: 450px !important;
-      height: 280px !important;
-    }
-    .data__dashboard {
-      width: 450px !important;
-      height: 280px !important;
-    }
-  }
-  @media screen and (max-width: 479px) {
-    .cdcr__dashboard {
-      width: 350px !important;
-      height: 218px !important;
-    }
-    .counties__dashboard {
-      width: 350px !important;
-      height: 218px !important;
-    }
-    .data__dashboard {
-      width: 350px !important;
-      height: 218px !important;
-    }
-  }
-  @media screen and (min-width: 991px) {
-    .cdcr__dashboard {
-      width: 450px !important;
-      height: 280px !important;
-    }
-    .counties__dashboard {
-      width: 450px !important;
-      height: 280px !important;
-    }
-    .data__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-    .data__description {
-      width: 700px !important;
-    }
-    .data__article {
-      width: 700px !important;
-    }
-  }
-  @media screen and (min-width: 1138px) {
-    .cdcr__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
-    .counties__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
-    .data__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-    .data__description {
-      width: 700px !important;
-    }
-    .data__article {
-      width: 700px !important;
-    }
-  }
-  @media screen and (min-width: 1280px) {
-    .cdcr__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
-    .counties__dashboard {
-      width: 500px !important;
-      height: 312.5px !important;
-    }
-    .data__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-  }
-  
-  @media screen and (min-width: 1440px) {
-    .cdcr__dashboard {
-      width: 600px !important;
-      height: 373.5px !important;
-    }
-    .counties__dashboard {
-      width: 600px !important;
-      height: 373.5px !important;
-    }
-    .data__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-  }
-  @media screen and (min-width: 1920px) {
-    .cdcr__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-    .counties__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-    .data__dashboard {
-      width: 700px !important;
-      height: 435px !important;
-    }
-  }
-  
-  
-  
+.article__title{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.article__description{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
