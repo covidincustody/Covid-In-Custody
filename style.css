@@ -1,4 +1,4 @@
-/* Generated on: Tue Jul 13 2021 05:20:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Jul 13 2021 05:34:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8966,8 +8966,8 @@
        max-width: none;
        padding-right: 5%;
        padding-left: 5%;
-       font-size: 18px;
-       line-height: 20px;
+       font-size: 16px;
+       line-height: 19px;
        text-align: left;
      }
    
@@ -9329,9 +9329,10 @@
        grid-column-end: span 2;
      }
    }
-   {"mode":"full","isActive":false}
 
-    
+/* Custom CSS styles */
+
+  
 .article__title{
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -9507,8 +9508,4 @@
   }
 }
 
-@media screen and (max-width: 991px){
-.div-block-73-copy {
-  width: 100%;
-}
-}
+
