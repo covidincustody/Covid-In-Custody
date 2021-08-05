@@ -47,7 +47,7 @@
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
                   frameborder="0" allowFullScreen="true"></iframe>
 
-/* Custom CSS styles */
+  /* Custom CSS styles */
 
   
 .article__title{
@@ -78,6 +78,9 @@
   display: None !important;
   visibility: hidden !important;
 }
+.data__description {
+  width: 991px !important;
+}
 @media screen and (max-width: 1035px) {
   .cdcr__dashboard {
     width: 600px;
@@ -90,6 +93,9 @@
   .data__dashboard {
     width: 500px !important;
     height: 312.5px !important;
+  }
+  .data__description {
+    width: 500px !important;
   }
 }
 
@@ -105,6 +111,9 @@
   .data__dashboard {
     width: 500px !important;
     height: 312.5px !important;
+  }
+  .data__description {
+    width: 500px !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -125,7 +134,9 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
   }
-  
+  .data__description {
+    width: 450px !important;
+  }
 }
 @media screen and (max-width: 479px) {
   .cdcr__dashboard {
@@ -139,6 +150,9 @@
   .data__dashboard {
     width: 350px !important;
     height: 218px !important;
+  }
+  .data__description {
+    width: 350px !important;
   }
 }
 @media screen and (min-width: 991px) {
@@ -224,5 +238,7 @@
     height: 435px !important;
   }
 }
+
+
 
 
