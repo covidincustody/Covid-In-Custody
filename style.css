@@ -12469,6 +12469,9 @@ p {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+.data__description__container{
+  margin-bottom: 20px !important;
+}
 
 @media screen and (max-width: 1035px) {
   .cdcr__dashboard {
