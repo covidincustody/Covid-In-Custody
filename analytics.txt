@@ -47,7 +47,7 @@
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
                   frameborder="0" allowFullScreen="true"></iframe>
 
-  /* Custom CSS styles */
+     /* Custom CSS styles */
 
   
 .article__title{
@@ -81,6 +81,13 @@
 .data__description {
   width: 991px !important;
 }
+.data__article__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
 @media screen and (max-width: 1035px) {
   .cdcr__dashboard {
     width: 600px;
