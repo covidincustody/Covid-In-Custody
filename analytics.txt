@@ -46,17 +46,19 @@
 <iframe class="data__dashboard" 
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
                   frameborder="0" allowFullScreen="true"></iframe>
+/* Custom CSS styles */
 
-     /* Custom CSS styles */
-
-  
-.article__title{
+.article__title {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
-.article__description{
+.datatabs{
+  padding-top: 40px !important;
+}
+
+.article__description {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -86,7 +88,9 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
+.data__description__container{
+  margin-bottom: 20px !important;
+}
 
 @media screen and (max-width: 1035px) {
   .cdcr__dashboard {
@@ -101,7 +105,7 @@
     width: 500px !important;
     height: 312.5px !important;
   }
-  .data__description {
+  .data__description__container {
     width: 500px !important;
   }
 }
@@ -119,7 +123,7 @@
     width: 500px !important;
     height: 312.5px !important;
   }
-  .data__description {
+  .data__description__container {
     width: 500px !important;
   }
 }
@@ -136,12 +140,12 @@
     width: 450px !important;
     height: 280px !important;
   }
-  .article__title{
+  .article__title {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
   }
-  .data__description {
+  .data__description__container {
     width: 450px !important;
   }
 }
@@ -158,7 +162,7 @@
     width: 350px !important;
     height: 218px !important;
   }
-  .data__description {
+  .data__description__container {
     width: 350px !important;
   }
 }
@@ -175,7 +179,7 @@
     width: 700px !important;
     height: 435px !important;
   }
-  .data__description {
+  .data__description__container {
     width: 700px !important;
   }
   .data__article {
@@ -195,7 +199,7 @@
     width: 700px !important;
     height: 435px !important;
   }
-  .data__description {
+  .data__description__container {
     width: 700px !important;
   }
   .data__article {
@@ -245,7 +249,3 @@
     height: 435px !important;
   }
 }
-
-
-
-
