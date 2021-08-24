@@ -1,4 +1,4 @@
-/* Generated on: Tue Aug 24 2021 01:26:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Aug 24 2021 01:54:45 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9158,6 +9158,7 @@ p {
 
 .tab-pane-tab-1-3-copy {
   margin-right: 0%;
+  margin-bottom: 15%;
   margin-left: 0%;
   padding-top: 20px;
 }
@@ -9706,6 +9707,13 @@ p {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.div-block-116-copy {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
 }
 
 @media screen and (min-width: 1280px) {
@@ -12983,6 +12991,9 @@ p {
     width: 500px !important;
     height: 312.5px !important;
   }
+  .div-block-116-copy{
+    width: 500px !important;
+  }
   .data__description__container {
     width: 500px !important;
   }
@@ -13001,6 +13012,9 @@ p {
     width: 500px !important;
     height: 312.5px !important;
   }
+  .div-block-116-copy{
+    width: 500px !important;
+  }
   .data__description__container {
     width: 500px !important;
   }
@@ -13017,6 +13031,9 @@ p {
   .data__dashboard {
     width: 450px !important;
     height: 280px !important;
+  }
+  .div-block-116-copy{
+    width: 450px !important;
   }
   .article__title {
     display: -webkit-box;
@@ -13040,6 +13057,9 @@ p {
     width: 350px !important;
     height: 218px !important;
   }
+  .div-block-116-copy{
+    width: 350px !important;
+  }
   .data__description__container {
     width: 350px !important;
   }
@@ -13056,6 +13076,9 @@ p {
   .data__dashboard {
     width: 700px !important;
     height: 435px !important;
+  }
+  .div-block-116-copy{
+    width: 700px !important;
   }
   .data__description__container {
     width: 700px !important;
@@ -13077,6 +13100,9 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
   .data__description__container {
     width: 700px !important;
   }
@@ -13097,6 +13123,9 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -13112,11 +13141,17 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
 }
 @media screen and (min-width: 1920px) {
   .cdcr__dashboard {
     width: 700px !important;
     height: 435px !important;
+  }
+  .div-block-116-copy{
+    width: 700px !important;
   }
   .counties__dashboard {
     width: 700px !important;
@@ -13127,3 +13162,4 @@ p {
     height: 435px !important;
   }
 }
+
