@@ -1,4 +1,4 @@
-/* Generated on: Tue Aug 24 2021 01:54:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 25 2021 08:16:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -9663,6 +9663,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .text-block-22 {
@@ -9714,6 +9719,42 @@ p {
   height: 2px;
   margin-bottom: 20px;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+}
+
+.div-block-122 {
+  max-width: 700px;
+}
+
+.div-block-123 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-block-23 {
+  font-weight: 300;
+}
+
+.div-block-73-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-36 {
+  font-weight: 500;
+}
+
+.bold-text-5 {
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1280px) {
@@ -11047,6 +11088,19 @@ p {
 
   .div-block-118 {
     margin-top: 10%;
+  }
+
+  .div-block-73-copy {
+    margin-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -12719,6 +12773,11 @@ p {
 
   .data-link-container {
     padding: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -12745,6 +12804,11 @@ p {
   .collaborator__logo__container-copy {
     width: auto;
     height: auto;
+  }
+
+  .div-block-101 {
+    padding-right: 0%;
+    padding-left: 0%;
   }
 
   .tabs-content-3 {
@@ -12940,7 +13004,7 @@ p {
   -webkit-box-orient: vertical;
 }
 
-.datatabs{
+.datatabs {
   padding-top: 40px !important;
 }
 
@@ -12974,7 +13038,7 @@ p {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-.data__description__container{
+.data__description__container {
   margin-bottom: 20px !important;
 }
 
@@ -12991,7 +13055,7 @@ p {
     width: 500px !important;
     height: 312.5px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 500px !important;
   }
   .data__description__container {
@@ -13012,7 +13076,7 @@ p {
     width: 500px !important;
     height: 312.5px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 500px !important;
   }
   .data__description__container {
@@ -13032,7 +13096,7 @@ p {
     width: 450px !important;
     height: 280px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 450px !important;
   }
   .article__title {
@@ -13057,7 +13121,7 @@ p {
     width: 350px !important;
     height: 218px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 350px !important;
   }
   .data__description__container {
@@ -13077,7 +13141,7 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 700px !important;
   }
   .data__description__container {
@@ -13100,7 +13164,7 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 700px !important;
   }
   .data__description__container {
@@ -13123,7 +13187,7 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 700px !important;
   }
 }
@@ -13141,7 +13205,7 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 700px !important;
   }
 }
@@ -13150,7 +13214,7 @@ p {
     width: 700px !important;
     height: 435px !important;
   }
-  .div-block-116-copy{
+  .div-block-116-copy {
     width: 700px !important;
   }
   .counties__dashboard {
@@ -13162,4 +13226,3 @@ p {
     height: 435px !important;
   }
 }
-

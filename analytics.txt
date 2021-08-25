@@ -105,6 +105,9 @@
     width: 500px !important;
     height: 312.5px !important;
   }
+  .div-block-116-copy{
+    width: 500px !important;
+  }
   .data__description__container {
     width: 500px !important;
   }
@@ -123,6 +126,9 @@
     width: 500px !important;
     height: 312.5px !important;
   }
+  .div-block-116-copy{
+    width: 500px !important;
+  }
   .data__description__container {
     width: 500px !important;
   }
@@ -139,6 +145,9 @@
   .data__dashboard {
     width: 450px !important;
     height: 280px !important;
+  }
+  .div-block-116-copy{
+    width: 450px !important;
   }
   .article__title {
     display: -webkit-box;
@@ -162,6 +171,9 @@
     width: 350px !important;
     height: 218px !important;
   }
+  .div-block-116-copy{
+    width: 350px !important;
+  }
   .data__description__container {
     width: 350px !important;
   }
@@ -178,6 +190,9 @@
   .data__dashboard {
     width: 700px !important;
     height: 435px !important;
+  }
+  .div-block-116-copy{
+    width: 700px !important;
   }
   .data__description__container {
     width: 700px !important;
@@ -199,6 +214,9 @@
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
   .data__description__container {
     width: 700px !important;
   }
@@ -219,6 +237,9 @@
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -234,11 +255,17 @@
     width: 700px !important;
     height: 435px !important;
   }
+  .div-block-116-copy{
+    width: 700px !important;
+  }
 }
 @media screen and (min-width: 1920px) {
   .cdcr__dashboard {
     width: 700px !important;
     height: 435px !important;
+  }
+  .div-block-116-copy{
+    width: 700px !important;
   }
   .counties__dashboard {
     width: 700px !important;
