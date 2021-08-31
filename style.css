@@ -1,4 +1,4 @@
-/* Generated on: Tue Aug 31 2021 01:13:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Aug 31 2021 02:58:42 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -12156,7 +12156,13 @@ p {
   }
 
   .article__text__container {
+    height: auto;
+    min-height: auto;
     padding: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -12176,6 +12182,10 @@ p {
     width: 100%;
     height: auto;
     padding-right: 0px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -o-object-fit: fill;
     object-fit: fill;
   }
@@ -12522,10 +12532,12 @@ p {
   }
 
   .article__text__frame {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    height: auto;
+    min-height: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -13131,7 +13143,7 @@ p {
   }
 
   .hadar_aviram-copy {
-    width: auto;
+    width: 115px;
     max-width: none;
     min-width: auto;
   }
