@@ -1,4 +1,4 @@
-/* Generated on: Thu Sep 23 2021 23:32:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Oct 19 2021 02:58:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2408,9 +2408,9 @@ p {
   display: flex;
   max-height: none;
   max-width: none;
-  min-height: 400px;
+  min-height: 300px;
   margin-left: 0px;
-  padding: 20px;
+  padding: 0px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6890,8 +6890,8 @@ p {
 .section__title__container.cc-separate-subheadline {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .decolineleft {
@@ -10573,7 +10573,9 @@ p {
 }
 
 .section-9 {
-  padding: 70px 5%;
+  margin-bottom: 0px;
+  padding: 0px 5% 30px;
+  background-color: hsla(0, 0%, 76.1%, 0.14);
 }
 
 .icon-7 {
@@ -10705,6 +10707,49 @@ p {
 .heading-38 {
   font-size: 22px;
   line-height: 30px;
+}
+
+.heading-38-copy {
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.university {
+  font-weight: 400;
+}
+
+.heading-38-copy-copy {
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.div-block-126 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 18px;
+}
+
+.text-block-25 {
+  margin-right: 5px;
 }
 
 @media screen and (min-width: 1280px) {
