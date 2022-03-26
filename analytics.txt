@@ -47,9 +47,6 @@
                   src="https://app.powerbi.com/view?r=eyJrIjoiYTkzODlhMzgtOGI2OS00NTc2LThlZjEtODc1YmM2YjczNjBlIiwidCI6ImYwNmIyZWE4LTVmNjMtNDkzNy1hNjIwLTQ1MjJmZDliMWJhMyIsImMiOjN9&pageName=ReportSection"
                   frameborder="0" allowFullScreen="true"></iframe>
 
-
-/* Custom CSS styles */
-
 .article__title {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -249,6 +246,42 @@
     width: 700px !important;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .cdcr__dashboard {
+    width: 600px !important;
+    height: 373.5px !important;
+  }
+  .counties__dashboard {
+    width: 600px !important;
+    height: 373.5px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .div-block-116-copy {
+    width: 700px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cdcr__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .div-block-116-copy {
+    width: 700px !important;
+  }
+  .counties__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+  .data__dashboard {
+    width: 700px !important;
+    height: 435px !important;
+  }
+}
+
 
 @media screen and (min-width: 1440px) {
   .cdcr__dashboard {
