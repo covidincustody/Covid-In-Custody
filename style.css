@@ -1,4 +1,4 @@
-/* Generated on: Sat Aug 20 2022 06:50:13 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Oct 30 2022 19:16:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4796,11 +4796,11 @@
    
    .article__image__frame {
      overflow: visible;
-     width: 100%;
-     height: 100%;
+     width: auto;
+     height: auto;
      max-height: 100%;
      max-width: 100%;
-     min-height: 100%;
+     min-height: auto;
      min-width: auto;
      box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.25);
      -o-object-fit: fill;
@@ -9575,6 +9575,32 @@
      object-fit: contain;
    }
    
+   .suliman {
+     width: 100px;
+     height: 100px;
+     min-height: 100px;
+     min-width: 100px;
+     border-radius: 50%;
+     background-image: url("https://uploads-ssl.webflow.com/5fff64ad1eeff2890652759c/635ec9ed7b758d2aa4d50f59_Suliman.png");
+     background-size: cover;
+     background-attachment: scroll;
+   }
+   
+   .article__image-copy {
+     overflow: hidden;
+     width: auto;
+     height: auto;
+     max-height: 100px;
+     max-width: 200px;
+     min-height: auto;
+     min-width: auto;
+     margin-top: 0px;
+     padding-top: 0px;
+     clear: none;
+     -o-object-fit: cover;
+     object-fit: cover;
+   }
+   
    @media screen and (min-width: 1280px) {
      .article__text__frame {
        min-width: auto;
@@ -11459,6 +11485,15 @@
        max-width: none;
        clear: none;
      }
+   
+     .article__image-copy {
+       overflow: visible;
+       width: 150px;
+       height: auto;
+       max-height: none;
+       max-width: none;
+       clear: none;
+     }
    }
    
    @media screen and (max-width: 767px) {
@@ -12166,6 +12201,10 @@
      }
    
      .article__image-copy-copy-copy {
+       width: 100px;
+     }
+   
+     .article__image-copy {
        width: 100px;
      }
    }
@@ -14068,6 +14107,16 @@
        background-color: #fff9f9;
        -o-object-fit: contain;
        object-fit: contain;
+     }
+   
+     .article__image-copy {
+       display: inline-block;
+       width: 100%;
+       height: 200px;
+       max-height: none;
+       max-width: none;
+       -o-object-fit: cover;
+       object-fit: cover;
      }
    }
    
